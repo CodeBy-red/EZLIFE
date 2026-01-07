@@ -1,0 +1,39 @@
+===========================================
+COMANDOS PARA EXECUTAR NO TERMINAL
+===========================================
+
+1. PRIMEIRO: Configure o Git (execute uma vez):
+   git config --global user.name "Gabriel Lima"
+   git config --global user.email "Gl451606@gmail.com"
+
+2. DEPOIS: Execute estes comandos na pasta do projeto:
+
+   git init
+   git add .
+   git commit -m "Primeiro commit - Blog Monetizavel Conteudo Digital"
+   git branch -M main
+   git remote add origin https://github.com/CodeBy-red/EZLIFE.git
+   git push -u origin main
+
+===========================================
+SE O GIT NÃO ESTIVER INSTALADO:
+===========================================
+
+1. Baixe e instale o Git: https://git-scm.com/download/win
+2. Após instalar, reinicie o terminal
+3. Execute os comandos acima
+
+===========================================
+SE DER ERRO NO PUSH:
+===========================================
+
+Se o repositório já existe no GitHub e tem arquivos:
+   git pull origin main --allow-unrelated-histories
+   git push -u origin main
+
+Se já existe um remote configurado:
+   git remote set-url origin https://github.com/CodeBy-red/EZLIFE.git
+   git push -u origin main
+
+===========================================
+
