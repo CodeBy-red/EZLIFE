@@ -1,0 +1,52 @@
+===========================================
+COMANDOS FINAIS - COM EMAIL ATUALIZADO
+===========================================
+
+EMAIL CONFIGURADO: gabriel.araujo@velotax.com.br
+
+===========================================
+1. CONFIGURAR GIT:
+===========================================
+
+git config --global user.name "Gabriel Lima"
+git config --global user.email "gabriel.araujo@velotax.com.br"
+
+===========================================
+2. GERAR TOKEN NO GITHUB:
+===========================================
+
+https://github.com/settings/tokens
+(Generate new token → classic → marque "repo" → Generate)
+
+===========================================
+3. EXECUTAR COMANDOS (substitua SEU_TOKEN):
+===========================================
+
+git add .
+git commit -m "Primeiro commit - Blog Monetizavel Conteudo Digital"
+git remote remove origin
+git remote add origin https://SEU_TOKEN@github.com/CodeBy-red/EZLIFE.git
+git push -u origin main
+
+===========================================
+EXEMPLO COMPLETO:
+===========================================
+
+Se seu token for: ghp_abc123xyz456
+
+git config --global user.name "Gabriel Lima"
+git config --global user.email "gabriel.araujo@velotax.com.br"
+git add .
+git commit -m "Primeiro commit - Blog Monetizavel Conteudo Digital"
+git remote remove origin
+git remote add origin https://ghp_abc123xyz456@github.com/CodeBy-red/EZLIFE.git
+git push -u origin main
+
+===========================================
+OU USE O SCRIPT AUTOMATICO:
+===========================================
+
+Execute: deploy-completo-final.bat
+
+===========================================
+

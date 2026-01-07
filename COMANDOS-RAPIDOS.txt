@@ -1,0 +1,33 @@
+===========================================
+COMANDOS RAPIDOS PARA RESOLVER O ERRO
+===========================================
+
+1. GERE UM TOKEN:
+   https://github.com/settings/tokens
+   (Generate new token → classic → marque "repo" → Generate)
+
+2. EXECUTE ESTES COMANDOS (substitua SEU_TOKEN):
+
+   git remote remove origin
+   git remote add origin https://SEU_TOKEN@github.com/CodeBy-red/EZLIFE.git
+   git push -u origin main
+
+===========================================
+EXEMPLO:
+===========================================
+
+Se seu token for: ghp_abc123xyz456
+
+Execute:
+git remote remove origin
+git remote add origin https://ghp_abc123xyz456@github.com/CodeBy-red/EZLIFE.git
+git push -u origin main
+
+===========================================
+OU USE O SCRIPT:
+===========================================
+
+Execute: atualizar-remote.bat
+
+===========================================
+
